@@ -59,3 +59,41 @@
 display: inline-block;
 ```
 
+
+
+### float 속성
+
+블록 레벨 요소끼리 나란히 사용 X - float 속성이 해결해줌 
+
+이미지 주변에 텍스트가 올 수 있음.
+
+문서 위에 떠 있게 만들어줌
+
+left, right, none 
+
+**float 속성을 그만 사용하려면 clear 속성을 사용해줘야 함.**
+
+
+
+### position 속성
+
+
+
+웹 요소의 위치를 원하는 곳에 정함.
+
+left, right, top, bottom : 각각 기준 위치와 요소 사이에 얼마나 떨어져 있는지 지정
+
+***static*** -문서의 흐름에 맞춰 배치
+
+***relative***  -위치값을 지정할 수 있다는 점을 제외하면 static과 동일
+
+***absolute***-relative값을 사용한 상위 요소를 기준으로 위치를 지정해 배치
+
+***fixed*** -브라우저 창을 기준으로 위치를 지정해 배치
+
+```html
+#static{position:static}
+#relative{position:relative}
+```
+
+요소에 position:absolute 로 위치 지정하면 'position: relative'를 사용한 요소를 기준으로 위치 결정함
